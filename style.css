@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    color: azure;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically center the content */
+    padding: 100px 0;
+    position: relative;
+    margin-top: 0px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    text-align: start;
+    margin-top: 0;
+    margin-right: 100px; /* Add margin to separate text from the image */
+    position: relative;
+    color: oldlace;
+}
+
+.gradient-text {
+    background: linear-gradient(to top, #4CAF50, #45a049, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.hero p {
+    font-size: 24px;
+    text-align: start;
+    display: flex;
+}
+
+.hero-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+}
+
+
+
+
+.footer {
+    display: flex;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 7px;
+    
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+    color: white;
+}
+
